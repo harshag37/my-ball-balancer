@@ -55,6 +55,8 @@ py.display.update()
 space=pm.Space()
 space.gravity=(0,-500)
 clock=py.time.Clock()
+b_x=500
+b_y=400
 ball_body=create_ball(space)
 ledge_body=(create_ledge(space))
 joint_motor=motor(space)
@@ -65,8 +67,6 @@ blue=(0,0,255)
 white=(255,255,255)
 black=(0,0,0)
 quit_game=False
-b_x=500
-b_y=400
 fps=60
 error=0
 prev_error=0
